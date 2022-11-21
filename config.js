@@ -39,14 +39,14 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['6285852939370', 'rere', true],
+['4915256954581', 'niluh', true],
 ['6285852939370', 'Al', true]
 ]
 global.mods = []
 global.prems = []
 global.nomorbot = '6285852939370'
-global.nomorown = '6285852939370'
-global.nomorown1 = '6285852939370'
+global.nomorown = '4915256954581'
+global.nomorown1 = '4915256954581'
 global.nomorown2 = '6285852939370'
 global.nomorwa = '0'
 
@@ -54,23 +54,23 @@ global.nomorwa = '0'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = 'Created By Al'
-global.namebot = 'RereUwu'
-global.wm = '© RereUwu'
+global.author = 'Created By Niluh'
+global.namebot = 'NiluhUwu'
+global.wm = '© niluhUwu'
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
 global.watermark = wm
-global.wm2 = 'RereUwu '
+global.wm2 = 'NiluhUwu '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.packname = wm
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `Rereuwu`
+global.titlebot = `Niluhuwu`
 global.stickpack = '𝑨𝒍𝒅𝒊 𝐗 𝑨𝒊𝒔𝒚𝒂𝒉'
-global.stickauth = `© RereUwu MD`
+global.stickauth = `© NiluhUwu MD`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.nameown1= 'Al'
-global.nameown2 = 'Rere'
+global.nameown1= 'Niluh'
+global.nameown2 = 'Al'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'Bentar'
 global.lynk = 'https://lynk.id/hyuuraofc'
@@ -89,7 +89,7 @@ global.povo = '-'
 global.pgopay = '0858 5293 9370'
 global.plinkaja = '-' //link aja
 global.ppulsa = '0858 5293 9370'
-global.ppulsa2 = '085852939370'
+global.ppulsa2 = '4915256954581'
 global.psaweria = 'https://saweria.co/hyuura'
 
 
