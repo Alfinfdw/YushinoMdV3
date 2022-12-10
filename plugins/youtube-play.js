@@ -29,7 +29,7 @@ handler.command = /^play2?$/i
 
 handler.exp = 0
 handler.limit = true
-handler.register = true
+handler.register = false
 
 export default handler */
 // ---------------------------new------------------------------------------------
@@ -88,7 +88,7 @@ handler.command = /^play2?$/i
 
 handler.exp = 0
 handler.limit = true
-handler.register = true
+handler.register = false
 
 export default handler
 
@@ -98,4 +98,5 @@ async function shortUrl(url) {
   if (!res.ok) throw false
   return await res.text()
 }
+
 
