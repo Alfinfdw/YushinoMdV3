@@ -39,38 +39,38 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['6285852939370', 'bot', true],
+['4915256954581', 'bot', true],
 ['6285852939370', 'bot', true]
 ]
 global.mods = []
 global.prems = []
 global.nomorbot = '6285852939370'
-global.nomorown = '6285852939370'
+global.nomorown = '4915256954581'
 global.nomorown1 = '6285852939370'
-global.nomorown2 = '6285852939370'
+global.nomorown2 = '4915256954581'
 global.nomorwa = '0'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = 'Created By Gatau'
+global.author = 'Created By Niluhchan'
 global.namebot = 'Gatau'
-global.wm = '© Gatau'
+global.wm = '© Niluhchan'
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
 global.watermark = wm
-global.wm2 = 'Gatau '
+global.wm2 = 'Niluhchan '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.packname = wm
 global.bottime = `T I M E : ${wktuwib}`
 global.titlebot = `Gatau`
 global.stickpack = '𝑨𝒍𝒅𝒊 𝐗 𝑨𝒊𝒔𝒚𝒂𝒉'
-global.stickauth = `© Gatau MD`
+global.stickauth = `© Niluhchan MD`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.nameown1= 'Gatau'
-global.nameown2 = 'Gatau'
+global.nameown1= 'Niluhchan'
+global.nameown2 = 'Niluhchan'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'Bentar'
 global.lynk = 'https://lynk.id/hyuuraofc'
