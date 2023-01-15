@@ -29,7 +29,7 @@ handler.command = /^play2?$/i
 
 handler.exp = 0
 handler.limit = true
-handler.register = false
+handler.register = true
 
 export default handler */
 // ---------------------------new------------------------------------------------
@@ -40,6 +40,7 @@ let handler = async (m, { conn, groupMetadata, usedPrefix, text, args, command }
 try {
   if (!text) throw `Use example ${usedPrefix}${command} gustixa`
   let vid = (await youtubeSearch(text)).video[0]
+  await m.reply(`*_${md} @${m.sender.split(`@`)[0]}..._*`)
   if (!vid) throw 'Video/Audio Tidak ditemukan'
   let { title, description, thumbnail, videoId, durationH, viewH, publishedTime } = vid
   const url = 'https://www.youtube.com/watch?v=' + videoId
@@ -87,8 +88,8 @@ handler.tags = ['downloader', 'limitmenu']
 handler.command = /^play2?$/i
 
 handler.exp = 0
-handler.limit = true
-handler.register = false
+handler.limit = false
+handler.register = true
 
 export default handler
 
@@ -98,5 +99,4 @@ async function shortUrl(url) {
   if (!res.ok) throw false
   return await res.text()
 }
-
 
