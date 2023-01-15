@@ -81,7 +81,7 @@ global.loadDatabase = async function loadDatabase() {
   global.db.chain = chain(global.db.data)
 }
 loadDatabase()
-global.authFile = `${opts._[0] || 'session'}.data.json`
+global.authFile = `${opts._[0] || 'Zyko-MD'}.data.json`
 const { state, saveState } = useSingleFileAuthState(global.authFile)
 
 const connectionOptions = {
@@ -125,13 +125,12 @@ async function connectionUpdate(update) {
     global.timestamp.connect = new Date
   }
   if (global.db.data == null) loadDatabase()
-   if (update.receivedPendingNotifications) conn.sendButtonDoc(`6281361281833@s.whatsapp.net`, 
-`┏═══════════════════
-┃╴◈ Bᴏᴛ Tᴇʟᴀʜ Tᴇʀsᴀᴍʙᴜɴɢ
-┣═══════════════════
-┃╴▶ Nᴏᴍᴏʀ : ${global.nomorbot}
-┃╴▶ Nᴀᴍᴇ Bᴏᴛ : ${global.namebot}
-┖┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬
+   if (update.receivedPendingNotifications) conn.sendButtonDoc(`${global.nomorown}@s.whatsapp.net`, 
+`𝘉𝘰𝘵 𝘛𝘦𝘭𝘢𝘩 𝘛𝘦𝘳𝘴𝘢𝘮𝘣𝘶𝘯𝘨
+𝘕𝘢𝘮𝘦𝘰𝘸𝘯 : ${global.nameown1}
+𝘕𝘢𝘮𝘦𝘣𝘰𝘵  : ${global.namebot}
+𝘕𝘰𝘮𝘦𝘳𝘣𝘰𝘵 : ${global.nomorbot}
+𝘕𝘰𝘮𝘦𝘳𝘰𝘸𝘯 ${global.nomorown}
 `, wm, 'Oᴡɴᴇʀ', '.owner', null
 )
 }
@@ -166,23 +165,25 @@ global.reloadHandler = async function (restatConn) {
   }
   
 let welc = `
-❖━━━[ *어서 오십시오* ]━━━❖
-┏––––––━━━━━━━━•
-│☘︎ @subject
-┣━━━━━━━━┅┅┅
-│( 👋 Hallo @user
-├[ *ɪɴᴛʀᴏ* ]—
-│ *ɴᴀᴍᴀ:* 
-│ *ᴜᴍᴜʀ:* 
-│ *ɢᴇɴᴅᴇʀ:*
-┗–––━━┅┅┅
+👋 Hallo @user
 
-–––┅┅ *ᴅᴇsᴄʀɪᴘᴛɪᴏɴ* ┅┅––––––
-@desc`
+                *W E L C O M E*
+
+⫹⫺ @subject
+
+⫹⫺ *DESCRIPTION*
+@desc
+
+
+${botdate}`
 let lef = 
-`❖━━━[ *나중에 봐요* ]━━━❖
-𝚂𝚊𝚢𝚘𝚗𝚊𝚛𝚊𝚊 *@user* 👋😃`
+`
+👋 Byee @user
 
+                *G O O D B Y E*
+                
+                
+${botdate}`
   conn.welcome = welc
   conn.bye = lef
   conn.spromote = '@user sekarang admin!'
