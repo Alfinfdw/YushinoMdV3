@@ -40,13 +40,13 @@ const readMore = more.repeat(4001)
 
 global.owner = [
 ['6285608468994', 'bot', true],
-['6285608468994', 'bot', true]
+['447971532870', 'DivanXd', true]
 ]
 global.mods = []
 global.prems = []
 global.nomorbot = '6285608468994'
-global.nomorown = '6285608468994'
-global.nomorown1 = '6285608468994'
+global.nomorown = '447971532870'
+global.nomorown1 = '447971532870'
 global.nomorown2 = '6285608468994'
 global.nomorwa = '0'
 
@@ -54,23 +54,23 @@ global.nomorwa = '0'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = 'Created By Galau dek'
-global.namebot = 'Galau dek'
-global.wm = '© Galau'
+global.author = 'Created By DivanXd'
+global.namebot = 'DivanXd'
+global.wm = '© DivanXd'
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
 global.watermark = wm
-global.wm2 = 'Galau dek '
+global.wm2 = 'DivanXd '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.packname = wm
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `Galau dek`
+global.titlebot = `DivanXd`
 global.stickpack = '𝑨𝒍𝒅𝒊 𝐗 𝑨𝒊𝒔𝒚𝒂𝒉'
-global.stickauth = `© galau MD`
+global.stickauth = `© DivanXd`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.nameown1= 'Galau dek'
-global.nameown2 = 'Galau dek'
+global.nameown1= 'DivanXd'
+global.nameown2 = 'DivanXd'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'Bentar'
 global.lynk = 'https://lynk.id/hyuuraofc'
@@ -306,7 +306,7 @@ global.logo = 'https://i.pinimg.com/564x/f7/d2/e4/f7d2e48fd59a8c01cd396bfc70b0a2
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
 global.urlnya = "https://www.instagram.com/hyuura-official"
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '0813 6128 1833'
+global.phn = '0856 0846 8994'
 
 global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ JNGN DI UBAH ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
