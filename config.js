@@ -40,13 +40,13 @@ const readMore = more.repeat(4001)
 
 global.owner = [
 ['6285608468994', 'bot', true],
-['447971532870', 'DivanXd', true]
+['6285608468994', 'DivanXd', true]
 ]
 global.mods = []
 global.prems = []
 global.nomorbot = '6285608468994'
-global.nomorown = '447971532870'
-global.nomorown1 = '447971532870'
+global.nomorown = '6285608468994'
+global.nomorown1 = '6285608468994'
 global.nomorown2 = '6285608468994'
 global.nomorwa = '0'
 
@@ -64,7 +64,7 @@ global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuw
 global.packname = wm
 global.bottime = `T I M E : ${wktuwib}`
 global.titlebot = `DivanXd`
-global.stickpack = '𝑨𝒍𝒅𝒊 𝐗 𝑨𝒊𝒔𝒚𝒂𝒉'
+global.stickpack = 'DivanXd'
 global.stickauth = `© DivanXd`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
